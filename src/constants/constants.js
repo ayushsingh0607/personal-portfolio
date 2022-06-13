@@ -15,6 +15,14 @@ export const projects = [
     visit:'https://github.com/ayushsingh0607/Pharmacy-management-system',
     id: 1,
   },
+  {
+    title: 'Gericht-Restuarant',
+    description:'This project is based on React.js. It is basically a menu of a restuarant which is designed to be user friendly and easy to use. The menu is designed to be scalable and can be used in a large restaurant. It provides all information about the restuarant with a very beautiful interface which will excite and attract the customers.It is full responsive and can be used in any device.',
+    image: '/images/img2.png',
+    tags: ['React.js' ],
+    visit:'https://gericht-restrau.netlify.app/',
+    id: 1,
+  },
   ];
 
 export const TimeLineData = [
