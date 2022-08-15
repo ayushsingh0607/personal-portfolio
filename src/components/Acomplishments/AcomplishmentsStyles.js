@@ -132,3 +132,10 @@ export const IconContainer = styled.div`
     justify-content: space-between;
   }
 `
+export const BoxImage = styled.img`
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+  cursor:pointer;
+`

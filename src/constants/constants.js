@@ -21,7 +21,15 @@ export const projects = [
     image: '/images/img2.png',
     tags: ['React.js' ],
     visit:'https://gericht-restrau.netlify.app/',
-    id: 1,
+    id: 2,
+  },
+  {
+    title: 'Relax.com',
+    description:'This project is based on React.js. It is basically a booking site from where one can book their stay in any part of the world at a very affordable price. It provides all the information of the hotels including the pictures and the price of the hotel.',
+    image: '/images/img4.png',
+    tags: ['React.js' ],
+    visit:'https://relax2022.netlify.app/',
+    id: 2,
   },
   ];
 
