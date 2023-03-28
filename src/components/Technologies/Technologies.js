@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiNodejs, DiReact, DiHtml5,DiCss3Full } from 'react-icons/di';
+import { DiReact, DiHtml5,DiCss3Full, DiNodejsSmall, DiMongodb,DiMysql } from 'react-icons/di';
+import {SiNextDotJs} from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -16,25 +17,39 @@ const Technologies = () =>  (
         <div className="logo" style={{display:'flex',flexDirection:'row'}}>
         <DiReact size='3rem' />
         <DiHtml5 size='3rem' />
-        <DiCss3Full size='3rem' />
+        <SiNextDotJs size='3.1rem'/>
+        {/* <SiMui size='3rem' /> */}
         </div>  
         <ListContainer>
           <ListTitle> Front-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js , HTML , CSS , next.js
+            React.js ,Next.js, MUI
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <div className="logo" style={{display:'flex',flexDirection:'row'}}>
-        <DiNodejs size='3.5rem' />
+        <DiNodejsSmall size='3.5rem' />
         </div>  
         <ListContainer>
           <ListTitle> Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Database.
+            Node.js and Express.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <div className="logo" style={{display:'flex',flexDirection:'row'}}>
+        <DiMongodb size='3rem' />
+        <DiMysql size='3.5rem' />
+        </div>  
+        <ListContainer>
+          <ListTitle> Database</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            MongoDB , MySQl and Firebase.
           </ListParagraph>
         </ListContainer>
       </ListItem>

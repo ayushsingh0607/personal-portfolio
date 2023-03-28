@@ -27,6 +27,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  // min-height:800px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -97,14 +98,14 @@ border-radius: 15px;
 transition: 0.5s;
 &:hover{
   background: #801414;
-
 }
 `;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 padding: 2rem;
+height:30px;
 `
 export const Tag = styled.li`
 color: #d8bfbf;

@@ -1,11 +1,19 @@
 export const projects = [
   {
-    title: 'Medical Pager',
-    description: 'I along with my group have made a web app called Medical Pager, which is totally based on React.js and Node.js concepts.Our web app is primarily dedicated to saving the lives of disadvantaged individuals who are unable to access medical expertise due to a lack of time or funds.Now, thanks to Medical Pager, these folks can receive expert advice and potentially save their own and their loved ones lives. We welcome you to become a part of this digital life-saving effort.',
-    image: '/images/img.png',
-    tags: [ 'React', 'Node'],
-    visit: 'https://medical-pager-2022.netlify.app/',
+    title: 'Study Verse',
+    description: 'Study Verse is an online learning platform. We have used React with Tailwind to implement the frontend part and for the backend NodeJs and MongoDB has been used.We have also used firebase storage for storing the data.',
+    image: '/images/study.jpg',
+    tags: ['MERN','Tailwind CSS','MUI'],
+    visit: 'https://studyverse.netlify.app/',
     id: 0,
+  },
+  {
+    title: 'Medical Pager',
+    description: 'This webapp is totally based on React.js and Node.js concepts.Our web app is primarily dedicated to saving the lives of disadvantaged individuals who are unable to access medical expertise due to a lack of time or funds.',
+    image: '/images/img.png',
+    tags: [ 'React', 'NodeJs'],
+    visit: 'https://medical-pager-2022.netlify.app/',
+    id: 1,
   },
   {
     title: 'Pharmacy Management System',
@@ -13,7 +21,7 @@ export const projects = [
     image: '/images/img1.png',
     tags: ['Python' ,'MySQL'],
     visit:'https://github.com/ayushsingh0607/Pharmacy-management-system',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Gericht-Restuarant',
@@ -21,7 +29,7 @@ export const projects = [
     image: '/images/img2.png',
     tags: ['React.js' ],
     visit:'https://gericht-restrau.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Relax.com',
@@ -29,12 +37,20 @@ export const projects = [
     image: '/images/img4.png',
     tags: ['React.js' ],
     visit:'https://relax2022.netlify.app/',
-    id: 2,
+    id: 4,
+  },
+  {
+    title: 'Gym site(The fit club)',
+    description:'A user can visit this website to learn more about the gym’s amenities, trainers, and membership options.It provides all of the gym’s information.The site features transitions that make it more attractive and stunning and is totally mobile responsive.',
+    image: '/images/gym.png',
+    tags: ['React.js' ],
+    visit:'https://fitraho.netlify.app/',
+    id: 4,
   },
   ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey', },
+  { year: 2020, text: 'Started my journey and pursued my career in web development', },
   { year: 2021, text: 'Learned HTML , CSS and JavaScript', },
-  { year: 2022, text:'Learned React.js and Node.js', },
+  { year: 2022, text:'Learned React.js,Node.js and Material UI', },
 ];
